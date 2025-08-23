@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Parallel Tests" parallel="methods" thread-count="5">
+
+    <test name="All Test Classes">
+        <classes>
+            <class name="Testng.dataprovider"/>
+            <class name="Testng.dependent"/>
+            <class name="Testng.enableddisable"/>
+            <class name="Testng.loginpage"/>
+            <class name="Testng.multipleruns"/>
+        </classes>
+    </test>
+
+</suite>
